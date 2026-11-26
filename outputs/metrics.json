@@ -1,0 +1,15 @@
+{
+  "run_id": "dae0d211-280d-4e92-adc4-50c26ce17c54",
+  "processed_at_utc": "2026-11-26T09:49:18.840679+00:00",
+  "rules_version": "1.0",
+  "input_sha256": "cef28707d8f45eb73e6ba75c0e248e8c6d39c88112858f0b9e6030ce50d315a6",
+  "input_rows": 10100,
+  "accepted_rows": 9800,
+  "rejected_rows": 300,
+  "acceptance_pct": 97.03,
+  "review_rows": 54,
+  "high_value_rows": 50,
+  "rapid_activity_rows": 4,
+  "accepted_amount_inr": 78479162,
+  "backend": "SQLite (local)"
+}

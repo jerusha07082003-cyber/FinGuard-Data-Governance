@@ -1,0 +1,11 @@
+rule_id,dimension,description,failed_rows,evaluated_rows
+transaction_id,Completeness / validity,Transaction ID must match TX followed by five digits,0,10100
+customer_id,Completeness / validity,Customer ID must match CUST followed by four digits,100,10100
+amount,Validity,Purchase amount must be a positive whole rupee value,100,10100
+currency,Validity,Currency must be INR,0,10100
+category,Standardization,Merchant category must belong to the approved list,0,10100
+type,Validity,Only Purchase is supported by this demo,0,10100
+timestamp,Validity,Timestamp must parse as a date/time,0,10100
+email,Validity,Email must be a synthetic example.com address,0,10100
+customer_email,Consistency,Synthetic email identifier must agree with customer ID,0,10100
+duplicate_id,Uniqueness,Retain the first otherwise valid occurrence of a transaction ID,100,9900
