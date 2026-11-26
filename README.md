@@ -1,4 +1,22 @@
 # FinGuard — Financial Data Governance & Fraud Risk Analytics
+## Live Demo
+
+[Launch FinGuard Dashboard](https://finguard-data-governance.streamlit.app)
+
+## Project Results
+
+- 10,100 synthetic financial transactions processed
+- 10 automated data quality validation rules
+- 9,800 accepted records
+- 300 quarantined records
+- 97.03% data acceptance rate
+- 54 transactions flagged for risk review
+
+Google BigQuery Sandbox was used for separate cloud-based SQL analytics, data reconciliation and transaction risk analysis. The deployed dashboard uses SQLite analytics.
+
+## Application Screenshot
+
+![FinGuard Live Dashboard](screenshots/10_streamlit_live_dashboard.png)
 
 Portfolio project for data governance / analytics roles. Synthetic financial purchases only; not affiliated with American Express. Local pipeline is runnable independently of cloud credentials. The optional BigQuery path is a batch integration, not a production deployment.
 
