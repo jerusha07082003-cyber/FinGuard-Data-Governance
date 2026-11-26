@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+.env.*
+.streamlit/secrets.toml
+*credentials*.json
+*service-account*.json
+outputs/*.db
+outputs/audit_history.jsonl
